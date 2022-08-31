@@ -3,10 +3,10 @@
 
 2. A program that prints the multiplicatin table of 10 in reverse other.
 
-3. A do-while is executed
-1. at least once.
-2. at least twice.
-3. at most once.
+3. A do-while is executed:
+i. at least once.
+ii. at least twice.
+iii. at most once.
 
 4. What can be done using a type of loop, can be done using another type: True or false(True).
 
