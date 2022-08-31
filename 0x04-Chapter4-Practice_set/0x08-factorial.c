@@ -8,6 +8,7 @@ int main()
     printf("Enter a number: ");
     scanf("%d", &num);
 
+    //Assign 1 to result and multiply through by i
     result = 1;
     for (int i = 1; i <= num; i++)
     {
