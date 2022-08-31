@@ -6,4 +6,11 @@ int main()
 
     printf("Enter a number: ");
     scanf("%d", &num);
+
+    for (int i = 1; i <= 10; i++)
+    {
+        printf("%d * %2d    =    %d\n", num, i, num*i);
+    }
+    
+    return 0;
 }
