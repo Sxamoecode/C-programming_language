@@ -1,7 +1,10 @@
+# Instructions
+0. A program that returns the number if the number is equal to eleven.
+
 1. A program that calculates the scores of students and check whether they fail or not. The required pass mark 40% and atleast 33% in each subject
 
 2. A program that calculates the income tax paid by an employee to the government as per the sales mentioned below.
-| Income Sales | Tax |
+| Income States | Tax |
 | :------------| :-----:|
 | 2.5L - 5.0L | 5% |
 | 5.0L - 10.0L | 20% |
