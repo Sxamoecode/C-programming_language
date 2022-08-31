@@ -2,19 +2,28 @@
 
 int main()
 {
-    float num1, num2, num3, num4;
+    int n;
+    double arr[100];
 
-    printf("Enter 4 numbers\n");
-    printf("Num 1: ");
-    scanf("%f", &num1);
-    printf("Num 2: ");
-    scanf("%f", &num2);
-    printf("Num 3: ");
-    scanf("%f", &num3);
-    printf("Num 4: ");
-    scanf("%f", &num4);
+    printf("Enter the number of elements (1-100): ");
+    scanf("%d", &n);
 
-    printf("max(%.1f, %.1f, %.1f, %.1f) = %.1f", num1, num2, num3, num4, num1);
+    //a for loop to receive elements from user
+    for (int i = 0; i < n; ++i) {
+        printf("Enter number%d: ", i+1);
+        scanf("%lf", &arr[i]);
+    }
+
+    //storing the largest number to arr[0]
+    for (int i = 1; i < n; ++i)
+    {
+        if (arr[0] < arr[i]) 
+        {
+            arr[0] = arr[i];
+        }
+    }
+
+    printf("Largest element = %.2lf", arr[0]);
 
     return 0;
 }
