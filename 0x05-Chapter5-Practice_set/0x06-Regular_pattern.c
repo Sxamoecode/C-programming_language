@@ -4,23 +4,26 @@ char pattern(int n);
 
 int main ()
 {
-    int num;
+    int rows;
 
-    printf("Enter Number of lines: ");
-    scanf("%d", &num);
+    printf("Enter number of rows: ");
+    scanf("%d", &rows);
 
-    printf("%c", pattern(num));
-
-    return 0;
+    pattern(rows);
 }
-
+// n = number of rows
 char pattern(int n)
 {
-    char hash = '#';
+    int i, j;
 
-    for (int count = 0; count < n; count++) {
-    hash += '#';
-    printf("%c", hash);
+    //loop that handles the rows
+    for (i = 0; i < n; i++)
+    {
+        //loop that handles the columns
+        for (j = 0; j <= i; j++)
+        {
+            printf("#");
+        }
+        printf("\n");
     }
-    return 0;
 }
