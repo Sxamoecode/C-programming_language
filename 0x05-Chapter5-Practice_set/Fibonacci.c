@@ -6,18 +6,18 @@ int main()
 {
     int num, c = 0, i;
 
-    printf("Enter number of nth element: ");
+    printf("Enter number of nth term: ");
     scanf("%d", &num);
 
-    for (i = 1; i <= num; i++)
+    for (int i = 0; i < num; i++)
     {
-        printf("%d\n", fibonnaci(num));
+        printf("%d\n", fibonnaci(c));
         c++;
     }
     
     return 0;
 }
-
+//0 1 1 2 3 5 8 13 21 34 55 89
 int fibonnaci(int n)
 {
     if (n == 0) {
